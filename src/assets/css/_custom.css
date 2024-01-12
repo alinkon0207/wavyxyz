@@ -1,0 +1,31 @@
+.wallet-adapter-button {
+  background-color: #2e2d4e !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  border: 0.5px !important;
+  border-radius: 0.5rem !important;
+  border-color: #acacae !important;
+  font-size: 1rem !important;
+  line-height: 1.5rem !important;
+  height: 40px !important;
+  font-family: CoinbaseDisplay !important;
+  /* margin-left: 1.25rem !important; */
+  /* width: 155px !important; */
+  justify-content: center;
+  display: flex;
+}
+
+.wallet-adapter-button-start-icon {
+  display: none !important;
+}
+
+w3m-avatar {
+    display: none !important;
+}
+
+.py-\[8px\] {
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+}

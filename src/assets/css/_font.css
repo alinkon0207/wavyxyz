@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'CoinbaseDisplay-Medium';
+    src: url('../fonts/CoinbaseDisplay-Medium.88e532b2f6f58aac7f1dbbd3b4731e92.ttf');
+}
+
+@font-face {
+    font-family: 'CoinbaseDisplay';
+    src: url('../fonts/CoinbaseDisplay-Regular.62bf1b795c1ad225811afd9715abdc90.ttf');
+}
+
+@font-face {
+    font-family: 'CoinbaseIcons';
+    src: url('../fonts/CoinbaseIcons-1666987373068.3d9e74f78d05e22d6b2eed5f40b51130.ttf');
+}
+
+@font-face {
+    font-family: 'CoinbaseSans-Medium';
+    src: url('../fonts/CoinbaseSans-Medium.b54c6aeed882bdf66df4e5fac9c2340e.ttf');
+}
+
+@font-face {
+    font-family: 'CoinbaseSans-Regular';
+    src: url('../fonts/CoinbaseSans-Regular.c9a6e887656f7b1014db3f1a07247ee2.ttf');
+}
+
+@font-face {
+    font-family: 'CoinbaseText-Regular';
+    src: url('../fonts/CoinbaseText-Regular.d65a3b1d9255924adbeeabac46787723.ttf');
+}
+
+@font-face {
+    font-family: 'Unbounded';
+    src: url('../fonts/Unbounded/Unbounded-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Extended';
+    src: url('../fonts/Unbounded/static/Unbounded-Medium.ttf');
+}

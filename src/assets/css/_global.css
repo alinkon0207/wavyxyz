@@ -1,0 +1,91 @@
+html,
+body {
+    margin: 0;
+    padding: 0px !important;
+    background: linear-gradient(180deg, #151428 0%, #000000 100%);
+    color: #ffffff;
+    font-family: 'CoinbaseDisplay';
+}
+
+input:focus-visible {
+    outline-offset: 0px;
+    border: unset !important;
+}
+
+input:focus {
+    outline: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.loader {
+    border: 8px solid #ffffff4d;
+    border-radius: 50%;
+    border-top: 8px solid #ffffff;
+    width: 54px;
+    height: 54px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.gradient-box {
+    background: linear-gradient(180deg, #1E1E36 0%, rgba(36, 36, 41, 0) 100%),
+        linear-gradient(0deg, #acacae00, #acacae00);
+}
+
+.gradient-text {
+    /* background: -webkit-linear-gradient(95.4deg, #5A50CF 15.58%, #453CC4 48.25%, #C79BEA 100%); */
+    background: -webkit-linear-gradient(21deg, #5A50CF -3.42%, #453CC4 20.25%, #C79BEA 67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card {
+    background: linear-gradient(180deg, rgba(36, 36, 41, 0) 0%, #242429 100%);
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 10px 0px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 760px) {
+    body {
+        background: #151518;
+    }
+
+    .card {
+        box-shadow: unset !important;
+        background: unset !important;
+        background-color: #151518 !important;
+        border-radius: 0px;
+    }
+}
